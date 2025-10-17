@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: "poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+
+    background: #5ADBD3, #F48CB6;
+    color: #ECD2FF;
+    
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+ color: #86fff4;
+font-size: 3rem;
+font-weight: 800;
+line-height: 2.15;
+
+}
+
+h2 {color: #ECD2FF;
+font-size: 3rem;
+font-weight: 800;
+line-height: 2.15;
+
+}
+
+.btn {
+    background: #F48CB6;
+    color: black;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold ;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    
+}
+
+header,footer{
+    background: #ECD2FF;
+    color: black;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.div-log{
+    margin-left: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo,
+ .header-nav ul li a{
+    text-decoration: none;
+    font-size: 3rem;
+
+    color: inherit;
+    display: inline-block;
+    padding: 2rem;
+}
+footer nav ul li
+{ padding: 1rem;
+
+}
+
+.titulo-home{
+    margin: 3rem;
+}
+
+.titulo-productos{
+    text-align: center;
+    margin: 3rem 0;
+
+}
+.parrafo{
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.tarjeta-producto{
+    background: #ECD2FF;
+    color: black;
+    width: 40rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem, 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.tarjeta-producto img{
+    width: 150%
+}
+
+
+
